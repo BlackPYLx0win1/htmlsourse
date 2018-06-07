@@ -9,5 +9,5 @@ import requests
 link = input("Enter sitename:")
 if link == "" 
     break
-req = requests.get (link)
+req = requests.get(link)
 print(req.text)
