@@ -4,8 +4,6 @@ print("*******************")
 print("*****  BlackPY   *****")
 print(" My channel in Telegram : @Termux_Tools")
 print("*******************")
-pip install --upgrad pip
-pip install requests 
 import requests 
 link = input("Enter sitename:")
 if link == "" 
