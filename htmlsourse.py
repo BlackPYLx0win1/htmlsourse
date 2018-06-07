@@ -6,5 +6,5 @@ print(" My channel in Telegram : @Termux_Tools")
 print("*******************")
 import requests 
 link = input("Enter sitename:")
-req = requests.get (link)
+req = requests.get(link)
 print(req.text)
