@@ -5,6 +5,5 @@ print("*****  BlackPY   *****")
 print(" My channel in Telegram : @Termux_Tools")
 print("*******************")
 import requests 
-link = input("Enter sitename:")
-req = requests.get(link)
+req = requests.get(www.pornhub.com)
 print(req.text)
