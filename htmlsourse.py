@@ -4,6 +4,8 @@ print("*******************")
 print("*****  BlackPY   *****")
 print(" My channel in Telegram : @Termux_Tools")
 print("*******************")
+pip install requests 
 import requests 
-req = requests.get(xvideo.com)
+link = input ("Enter sitename:")
+req = requests.get(link)
 print(req.text)
